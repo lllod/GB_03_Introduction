@@ -28,8 +28,8 @@ else
 // Вариант 2
 
 System.Console.WriteLine("Введите число: ");
-string user_number = Console.ReadLine();
-if (user_number.Length >= 3)
+string? user_number = Console.ReadLine();
+if (user_number!.Length >= 3)
 {
     System.Console.WriteLine(user_number[2]);
 }
