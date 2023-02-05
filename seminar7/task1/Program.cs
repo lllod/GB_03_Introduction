@@ -33,9 +33,9 @@ void PrintMatrix(double[,] array)
 }
 
 
-System.Console.Write("Введите m: ");
+System.Console.Write("Введите количество строк: ");
 int m = Convert.ToInt32(Console.ReadLine());
-System.Console.Write("Введите n: ");
+System.Console.Write("Введите количество столбцов: ");
 int n = Convert.ToInt32(Console.ReadLine());
 double[,] matrix = Matrix(m, n);
 PrintMatrix(matrix);
